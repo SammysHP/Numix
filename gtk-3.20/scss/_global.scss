@@ -3,22 +3,22 @@
 @import "functions";
 
 // default color scheme
-$bg_color: if($variant == "dark", #444, #eee);
+$bg_color: if($variant == "dark", #444, #dedede);
 $fg_color: if($variant == "dark", #ddd, #555);
-$base_color: if($variant == "dark", #333, #fff);
+$base_color: if($variant == "dark", #333, #f9f9f9);
 $text_color: if($variant == "dark", #eee, #333);
-$selected_bg_color: #f0544c;
-$selected_fg_color: #fff;
-$tooltip_bg_color: #444;
-$tooltip_fg_color: #eee;
+$selected_bg_color: #d64937;
+$selected_fg_color: #f9f9f9;
+$tooltip_bg_color: #2d2d2d;
+$tooltip_fg_color: #dcdcdc;
 
 $selected_borders_color: if($variant == 'light', shade($bg_color, .85), shade($bg_color, .88));
 $borders_color: if($variant == 'light', shade($bg_color, .85), shade($bg_color, .88));
 $borders_edge: if($variant == 'light', transparentize(white, 0.2), transparentize($fg_color, 0.93));
 
 // dark colors
-$dark_bg_color: #444;
-$dark_fg_color: #eee;
+$dark_bg_color: #2d2d2d;
+$dark_fg_color: #dcdcdc;
 
 // shadows
 $dark_shadow: #000;
