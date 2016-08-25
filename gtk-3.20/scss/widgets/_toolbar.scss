@@ -35,9 +35,9 @@
     combobox, button {
         padding: $spacing - 1px;
 
-        &.text-button { padding: $spacing; }
+        &.text-button { padding: $spacing ($spacing * 1.4); }
 
-        &.image-button { padding: ($spacing + 1px) ($spacing - 1px) ($spacing + 1px) $spacing; }
+        &.image-button { padding: $spacing; }
     }
 
     // toolbar separators
